@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: vanstinator/re-run-open-prs-on-base-update@v1.2.0
+      - uses: vanstinator/re-run-open-prs-on-base-update@e6794fadd0aaf6e6a626430c3cc5c568e9f80306 # v1.2.0
         with:
           github_token: ${{ secrets.GENTX }}
